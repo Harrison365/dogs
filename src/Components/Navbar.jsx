@@ -1,11 +1,16 @@
 import React from "react";
 import "./Navbar.css";
+import SignInButtons from "./SignInButtons.jsx";
 
 export default function Navbar({ dogOrHome, setDogOrHome }) {
   return (
     <div>
       <div className="titleBar">
+        <h1 id="messagesIcon">✉️</h1>
         <h1 className="title">Dog's Home 🏡</h1>
+        <div id="signInButtons">
+          <SignInButtons />
+        </div>
       </div>
       <div className="subNavbarContainer">
         <div
