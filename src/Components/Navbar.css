@@ -14,6 +14,13 @@
   position: absolute;
   left: 0;
   right: 0;
+  transform: translateY(-100%);
+}
+
+.titleLink {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
 }
 
 #messagesIcon {
@@ -56,8 +63,9 @@
   .title {
     font-size: 25px;
     white-space: pre-wrap;
-    width: 30%;
+    width: 50%;
     left: 50%;
-    transform: translateX(-50%);
+    top: 50%;
+    transform: translate(-50%, -100%);
   }
 }
